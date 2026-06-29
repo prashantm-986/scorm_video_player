@@ -1,39 +1,51 @@
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background:#ffffff;
+    background:#f5f5f6;
     color:#222;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
 }
-
+body{
+    margin:5;
+    border:10px solid #990707;
+    box-sizing:border-box;
+}
 .container{
     width:800px;
     text-align:center;
-    padding:40px;
+
+    padding:50px;
+
+    background:white;
+
+    border:1px solid #ddd;
+    border-radius:102px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
 }
 
 .logo{
-    width:180px;
-    margin-bottom:30px;
+    width:130px;
+    margin-bottom:0px;
 }
 
 h1{
-    font-size:42px;
+    font-size:32px;
     margin-bottom:15px;
-    color:#222;
+    color:#160808;
 }
 
-.subtitle{
-    font-size:22px;
-    color:#666;
-    margin-bottom:50px;
+h2{
+    font-size:26px;
+    margin-bottom:15px;
+    color:#160808;
 }
 
 button{
-    background:#0f6cbf;          /* Moodle blue */
+    background:#990707;          /* Moodle blue */
     color:white;
     border:none;
     padding:18px 50px;
