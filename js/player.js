@@ -24,3 +24,22 @@ if (exitBtn) {
 
     });
 }
+
+const video = document.getElementById("trainingVideo");
+
+if (video) {
+
+    const savedTime = localStorage.getItem("videoTime");
+
+    if (savedTime) {
+        video.addEventListener("loadedmetadata", () => {
+            video.currentTime = parseFloat(savedTime);
+        });
+    }
+
+    video.addEventListener("timeupdate", () => {
+        console.log("Saving:", video.currentTime);
+        localStorage.setItem("videoTime", video.currentTime);
+    });
+
+}
