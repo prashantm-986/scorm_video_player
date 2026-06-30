@@ -26,6 +26,7 @@ header h2{
     margin-left:40px;
     font-size:24px;
 }
+/* if exit button is not required then remove this code till main*/
 #exitBtn{
     background:#e53935;
     color:white;

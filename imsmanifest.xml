@@ -30,7 +30,7 @@ http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
         identifier="RES1"
         type="webcontent"
         adlcp:scormtype="sco"
-        href="index.html">
+        href="index.html"> <!--if landing page is not required then change this to player.html-->
 
     </resource>
 

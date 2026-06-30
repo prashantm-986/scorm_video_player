@@ -8,7 +8,7 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 
-<title>SCORM Video Player</title>
+<title>UPMRCL Online Learning Portal</title>
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -24,7 +24,7 @@ content="width=device-width, initial-scale=1.0">
 
     <h1>Welcome to the Online Learning Portal of UPMRC</h1>
 
-    <h2>Course Name: Driver Machine Interface</h2>
+    <h2 id="courseTitle"></h2>
 
     <button id="startBtn">
 
@@ -34,7 +34,12 @@ content="width=device-width, initial-scale=1.0">
 
 </div>
 
+<script src="js/config.js"></script>
+<script>
+    document.getElementById("courseTitle").textContent = COURSE.title;
+</script>
 <script src="js/player.js"></script>
+
 
 </body>
 

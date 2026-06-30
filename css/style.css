@@ -28,7 +28,7 @@ body{
 }
 
 .logo{
-    width:130px;
+    width:120px;
     margin-bottom:0px;
 }
 
@@ -45,7 +45,7 @@ h2{
 }
 
 button{
-    background:#990707;          /* Moodle blue */
+    background:#990707;          
     color:white;
     border:none;
     padding:18px 50px;

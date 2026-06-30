@@ -15,10 +15,11 @@ window.open(
 
 const exitBtn = document.getElementById("exitBtn");
 
+/* if exit button is not required then remove this code */
 if (exitBtn) {
     exitBtn.addEventListener("click", () => {
 
-        if (confirm("Are you sure you want to exit the training?")) {
+        if (confirm("Are you sure you want to exit the Course?")) {
             window.close();
         }
 
@@ -26,6 +27,12 @@ if (exitBtn) {
 }
 
 const video = document.getElementById("trainingVideo");
+const source = document.getElementById("videoSource");
+
+if (video && source) {
+    source.src = COURSE.video;
+    video.load();
+}
 
 if (video) {
 
