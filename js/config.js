@@ -1,10 +1,10 @@
 const COURSE = {
 
-    title: "Course Name: ATC On board Equipment",
+    title: "Course Name: Depot Point Machine",
 
-    subtitle: "ATC on Board Equipment",
+    subtitle: "Depot Point Machine",
 
-    video: "video/ATC.mp4",
+    video: "video/Depot_point_machine.mp4",
 
     logo: "assets/UPMRC_logo.png"
 
